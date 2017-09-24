@@ -1,0 +1,47 @@
+/* styles for form */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+form {
+    background-color: rgb(250, 250, 250);
+    width: 300px;
+    padding: 5px;
+    padding-top: 10px;
+}
+table {
+    width: 300px; 
+}
+.date {
+    width: 200px;
+}
+.date, .time {
+    border: none;
+    border-bottom: 2px solid red; 
+    background-color: rgb(250, 250, 250);
+}
+.alert {
+    font-size: 0.8em;
+    color: red;
+}
+.title {
+    font-size: 0.8em;
+    color: grey;
+}
+img {
+    margin-left: 240px; 
+}
+iframe {
+    align-self: stretch;
+}
+
+/* styles for frames */
+.banner {
+    background-color: red;
+    border: 2px solid black;
+}
+.bannerOk {
+    background-color: green;
+    border: 2px solid black;
+}
