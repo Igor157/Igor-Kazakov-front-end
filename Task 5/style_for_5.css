@@ -1,0 +1,123 @@
+
+header {
+    width: auto;
+    height: 286px;
+    background-image: url(./header_image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+} 
+div.pagename {
+    position: relative;
+    height: 86px;
+    width: 407px;
+    border: 4px solid black;
+    margin: auto;
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    box-shadow: 0 0 0 6px #fff;
+}
+span.pagename {
+    margin: auto;
+    opacity: 0.6;
+    font-size: 43px;
+}
+div.content {
+    height: 165px;
+    margin: 10px;
+    border: 2px solid #D6CFCF;
+}
+footer {
+    height: 130px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 2px solid #333333;
+    background-color: #333333
+}
+/* div.content:nth-child(1) {
+    margin-top: 26px;
+    margin-left: 34px;
+} ЧТО Я СДЕЛАЛ НЕ ТАК?????
+ */
+ .form1 {
+    margin-top: 26px;
+    margin-left: 34px;
+} 
+.form2 {
+    margin-top: 11px;
+    margin-left: 34px;
+}
+.form3 {
+    margin-top: 11px;
+    margin-left: 34px;
+}  
+button.pink {
+    background-color: #E84FA8;
+    width: 154px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid #E84FA8;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+button.green {
+    background-color: #819643;
+    width: 76px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #819643;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+button.blue {
+    background-color: #5B9EE9;
+    width: 76px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #5B9EE9;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+button.red {
+    background-color: #EB5858;
+    width: 76px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #EB5858;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+button.orange {
+    background-color: #FF7C33;
+    width: 90px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #FF7C33;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+button.yellow {
+    background-color: #FFC549;
+    width: 90px;
+    height: 17px;
+    border-radius: 5px;
+    border: 1px solid #FFC549;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+
+.
