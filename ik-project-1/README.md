@@ -5,7 +5,7 @@ Project was created according to BEM methodology. It uses adaptive/responsive de
 <https://igor157.github.io/>
 
 *****
-### Block name
+### Naming convention
 Two Dashes style of naming used
 
 block-name__elem-name--mod-name
