@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("1" + 2 + 0); // Result: 120 because of first argument-string and everything-string
+        console.log("1" - 1 + 2); // Result: 2 "-" only for numbers
+        console.log(true + false); // Result: 1  true = 1, false = 0. 
+        console.log(10 / "5"); // Result: 2 "5" = 5 because of math function "/" 
+        console.log("2" * "3"); // Result: 6 math function "*"
+        console.log(4 + 5 + "px"); // Result: 9px 4 + 5 = 9, 9 = "9"
+        console.log("$" + 4 + 5); // Result: $45 because of first argument-string and everything-string
+        console.log("42" - 2); // Result: 40 "-" only for numbers
+        console.log("4px" - 2); // Result: NaN "4px" --> NaN. 
+        console.log(7 / 0); // Result: Infinity
+        console.log("  -9\n" + 5); // Result: -9(new line)5 because of first argument-string
+        console.log("  -9\n" - 5); // Result: -14 "-" only for numbers
+        console.log(5 && 2); // Result: 2 because of 5 = true, 2 = true stop last true
+        console.log(2 && 5); // Result: 5 because of 5 = true, 2 = true stop last true
+        console.log(5 || 0); // Result: 5 because of 5 = true, stop first true
+        console.log(0 || 5); // Result: 5 because of 5 = true, stop first true
+        console.log(null + 1); //  Result: 1 null --> 0.
+        console.log(undefined + 1); // Result: NaN undefined --> NaN. 
+        console.log(null == "\n0\n"); // Result: False because of null == undefined only
+        console.log(+null == +"\n0\n"); // Result: True besause unary + --> number
+        
+    </script>
+
+</body>
+
+</html>
