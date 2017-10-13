@@ -1,5 +1,5 @@
-var count = prompt("Please, enter the number for calculating the factorial of it")
-var arrSimple = []; 
+var count = prompt("Please, enter the count of simle numbers")
+var arrSimple = [1]; 
 nextNumber:
     for (var i = 2; true; i++) {
         for (var j = 2; j < i; j++) {
@@ -9,3 +9,4 @@ nextNumber:
         arrSimple.push(i);
         else break; 
     }
+alert(arrSimple)
