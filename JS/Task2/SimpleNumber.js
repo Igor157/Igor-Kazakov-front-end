@@ -1,12 +1,9 @@
-var count = prompt("Please, enter the count of simle numbers")
-var arrSimple = [1]; 
-nextNumber:
-    for (var i = 2; true; i++) {
-        for (var j = 2; j < i; j++) {
-            if (i % j == 0) continue nextNumber;
-        }
-        if (arrSimple.length < count)
-        arrSimple.push(i);
-        else break; 
-    }
-alert(arrSimple)
+var count = prompt("Please, enter the count of simple numbers")
+var arrSimple = [];
+for (var i = 2; arrSimple.length < count; i++) {
+    for (var j = 2; j < i; j++) {
+        if (i % j == 0) break;
+    }              
+    if (i == j) arrSimple.push(i);
+}
+alert(arrSimple);
