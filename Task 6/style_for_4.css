@@ -1,0 +1,64 @@
+
+/* styles for frames */
+.banner {
+    background-color: red;
+    border: 2px solid black;
+}
+.bannerOk {
+    background-color: green;
+    border: 2px solid black;
+}
+iframe {
+    align-self: stretch;
+}
+
+.ik-main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.ik-event-form {
+    background-color: rgb(250, 250, 250);
+    width: 300px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.ik-event-form__table {
+    width: 300px;
+}
+.ik-event-form__date-input {
+    border: none;
+    border-bottom: 2px solid red; 
+    background-color: rgb(250, 250, 250);
+    width: 200px;
+}
+.ik-event-form__time-input {
+    border: none;
+    border-bottom: 2px solid red; 
+    background-color: rgb(250, 250, 250);    
+}
+
+.ik-event-form__title--grey {
+    font-size: 0.8em;
+    color: grey;
+}
+.ik-event-form__title--red {
+    font-size: 0.8em;
+    color: red;
+}
+.ik-event-form__button {
+    margin-left: 240px; 
+}
+
+/* styles for frames */
+.banner {
+    background-color: red;
+    border: 2px solid black;
+}
+.bannerOk {
+    background-color: green;
+    border: 2px solid black;
+}
+iframe {
+    align-self: stretch;
+}

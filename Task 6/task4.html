@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+    <link rel="stylesheet" href="style_for_4.css">
+</head>
+
+<body>
+    <div class="ik-main-page">
+        <form class="ik-event-form" action="">
+            <div class="ik-event-form__title--grey">Event name</div>
+            <div class="ik-event-form__title">Mel's birthday celebration</div>
+            <hr>
+            <table class="ik-event-form__table">
+                <tr>
+                    <td class="ik-event-form__title--grey" colspan="2">
+                        <label for="start">From</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="start" class="ik-event-form__date-input" type="date" min="2017-09-24">
+                    </td>
+                    <td align="center">
+                        <input class="ik-event-form__time-input" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--red" colspan="2">Date occurs in the past</td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--grey" colspan="2">
+                        <label for="finish">To</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="finish" class="ik-event-form__date-input" type="date" min="2017-09-24">
+                    </td>
+                    <td align="right">
+                        <input class="ik-event-form__time-input" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--red" colspan="2">Date occurs in the past</td>
+                </tr>
+            </table>
+            <div class="ik-event-form__title--grey">Description</div>
+            <div class="ik-event-form__title">Come help celebrate Mel's birthday with dinner, drinks and putt-putt</div>
+            <a href="bannerOk.html" target="result" class="ik-event-form__button">
+                <img src="button.JPG" alt="Кнопка отправки" width="60" height="60">
+            </a>
+        </form>
+        <iframe name="result" src="banner.html" height="100">
+        </iframe>
+    </div>
+</body>
+
+</html>
