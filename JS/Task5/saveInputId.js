@@ -1,5 +1,3 @@
-
-
 "use strict"
 function saveInput(id) {
     var field = document.getElementById(id);
