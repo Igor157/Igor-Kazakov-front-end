@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Task5 JS</title>
+    <link rel="stylesheet" href="style_for_4.css">
+    
+</head>
+
+<body>
+    <div class="ik-main-page">
+        <form class="ik-event-form" action="">
+            <div class="ik-event-form__title--grey">Event name</div>
+            <div class="ik-event-form__title">Mel's birthday celebration</div>
+            <hr>
+            <table class="ik-event-form__table">
+                <tr>
+                    <td class="ik-event-form__title--grey" colspan="2">
+                        <label for="startDate">From</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="startDate" class="ik-event-form__date-input" type="date" min="2017-09-24">
+                    </td>
+                    <td align="center">
+                        <input id="startTime" class="ik-event-form__time-input" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--red" colspan="2">Date occurs in the past</td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--grey" colspan="2">
+                        <label for="finishDate">To</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="finishDate" class="ik-event-form__date-input" type="date" min="2017-09-24">
+                    </td>
+                    <td align="right">
+                        <input id="finishTime" class="ik-event-form__time-input" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ik-event-form__title--red" colspan="2">Date occurs in the past</td>
+                </tr>
+            </table>
+            <div class="ik-event-form__title--grey">Description</div>
+            <div class="ik-event-form__title">Come help celebrate Mel's birthday with dinner, drinks and putt-putt</div>
+            <hr>
+            <div class="ik-radio-buttons">
+                <input id="radio1" class="hw-radio-buttons__choice" type="radio" name="group" value="Single"> Single
+                <input id="radio2" class="hw-radio-buttons__choice" type="radio" name="group" value="With a pair"> With a pair
+            </div>
+            <hr>
+            <label for="drink">Drinks</label>
+            <br>
+            <select class="ik-select" id="drink">
+                <option value="Vodka">Vodka</option>
+                <option value="Beer">Beer</option>
+                <option value="Vine">Vine</option>
+                <option value="Whisky">Whisky</option>
+                <option value="Anything">Does't matter, I just want to be drunk</option>
+            </select>
+            <hr>
+            <label for="music">Music</label>
+            <br>
+            <select class="ik-select" id="music">
+                <option value="Rock">Rock</option>
+                <option value="Hip-hop">Hip-hop</option>
+                <option value="Indy">Indy</option>
+                <option value="Anything">Does't matter, I just want to be drunk</option>
+            </select>
+            <a href="bannerOk.html" target="result" class="ik-event-form__button">
+                <img src="button.JPG" alt="Кнопка отправки" width="60" height="60">
+            </a>
+        </form>
+        <iframe name="result" src="banner.html" height="100">
+        </iframe>
+    </div>
+    <script src="localSaverID.js"></script>
+
+</body>
+
+</html>
