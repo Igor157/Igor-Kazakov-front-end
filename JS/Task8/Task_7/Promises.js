@@ -26,16 +26,7 @@ function httpGet(url) {
         xhr.send();
     });
 
-}
 
-options.forEach(function (option, index) {
-    console.log(option);
-    httpGet(option)
-        .then(
-            response => console.log(`Fulfilled: ${response} \n REQUEST ${index + 1} IS DONE`),
-            error => console.log(`Rejected: ${error}`)
-        );
-});
 
 
 
